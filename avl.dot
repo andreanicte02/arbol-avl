@@ -1,0 +1,22 @@
+digraph AVL{ 
+node[shape=record]
+lalao[label="<f0>|<f1> idd:lalao descripcion:descripcion5 nombre: queso  |<f2>"]; 
+lalaf[label="<f0>|<f1> idd:lalaf descripcion:descripcion7 nombre: queso  |<f2>"]; 
+lala[label="<f0>|<f1> idd:lala descripcion:descripcion4 nombre: queso  |<f2>"]; 
+lalai[label="<f0>|<f1> idd:lalai descripcion:descripcion6 nombre: queso  |<f2>"]; 
+orga1[label="<f0>|<f1> idd:orga1 descripcion:descripcion8 nombre: queso  |<f2>"]; 
+nuebo[label="<f0>|<f1> idd:nuebo descripcion:descripcion1 nombre: queso  |<f2>"]; 
+maje[label="<f0>|<f1> idd:maje descripcion:descripcion2 nombre: queso  |<f2>"]; 
+orga[label="<f0>|<f1> idd:orga descripcion:esta es una nueva describcion nombre: queso  |<f2>"]; 
+orga10[label="<f0>|<f1> idd:orga10 descripcion:descripcion9 nombre: queso  |<f2>"]; 
+orga3[label="<f0>|<f1> idd:orga3 descripcion:descripcion10 nombre: queso  |<f2>"]; 
+lalao:f0->lalaf 
+lalao:f2->orga1
+lalaf:f0->lala 
+lalaf:f2->lalai
+orga1:f0->nuebo 
+orga1:f2->orga10
+nuebo:f0->maje 
+nuebo:f2->orga
+orga10:f2->orga3
+} 
